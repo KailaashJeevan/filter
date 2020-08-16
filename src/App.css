@@ -1,0 +1,59 @@
+.containerApp{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    background-color: #14213d;
+    flex: 1;
+}
+
+.totalStudentsContainer{
+  flex:1;
+  padding: 20px;
+}
+
+.currentStudentsContainer{
+  flex: 1;
+  padding: 20px;
+
+}
+
+.unavailabeStudentsContainer{
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.textarea{
+  width: 600px;
+  height: 700px;
+  font-size: 30px;
+  background-color: 	#2980b9;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  border: none;
+}
+
+.filterButton{
+  color: White;
+  background-color:#029102;
+  font-size: x-large;
+  padding-top: 3px;
+  border-radius: 10px;
+  border: none;
+}
+
+.headings{
+
+  color: #00FFFF;
+}
+
+.results{
+  color: white;
+}
+
+.resultContainer{
+  display: flex;
+  flex-direction: column;
+}
